@@ -147,7 +147,9 @@ function App() {
       </div>
       {/* parallax scrolling */}
       <div className="para d-flex justify-content-center align-items-center">
-        <div className="bg-mc">Scroll Down</div>
+        <div>
+          <h1 className="font-weight-bold text-warning">Scroll Down</h1>
+        </div>
       </div>
       {/* middle section */}
       <div className="container bg-light">
@@ -225,7 +227,7 @@ function App() {
           <div className="row mb-3 gx-2 text-light">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
               <div className="container p-3">
-                <div className="bg-mc p-3">
+                <div className="mcc bg-mc p-3">
                   <h4>In our experience, </h4>
                   <p>
                     Even though we create an element describing the whole UI
@@ -238,7 +240,7 @@ function App() {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
               <div className="container p-3">
-                <div className="bg-mc p-3">
+                <div className="mcc bg-mc p-3">
                   <h4>In our experience, </h4>
                   <p>
                     Even though we create an element describing the whole UI
@@ -251,7 +253,7 @@ function App() {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
               <div className="container p-3">
-                <div className="bg-mc p-3">
+                <div className="mcc bg-mc p-3">
                   <h4>In our experience, </h4>
                   <p>
                     Even though we create an element describing the whole UI
@@ -297,7 +299,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 mb-2">
+            <div className="mcc col-lg-6 col-md-12 col-sm-12 mb-2">
               <form className="text-light" action="/action_page.php">
                 <div className="form-group">
                   <label htmlFor="email">Email address:</label>

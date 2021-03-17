@@ -3,7 +3,7 @@
     font-family: 'Playfair Display', serif;
 }
 :root{
-    --mc:#242582;
+    --mc:#5455af;
     --bc:#f94a6f;
 }
 #cssid1{
@@ -32,9 +32,8 @@
     font-size: 1.1em;
 } */
 
-
 .tringle-up{
-width: 0px;
+  width: 0px;
   height: 0px;
   border-style: inset;
   border-width: 0 150px 213.2px 150px;
@@ -46,24 +45,6 @@ width: 0px;
   -webkit-transform: rotate(360deg);
   -o-transform: rotate(360deg);
 }
-.tringle-down{
-width: 0px;
-  height: 0px;
-  border-style: inset;
-  border-width: 213.2px 150px 0 150px;
-  border-color:#fff transparent transparent transparent;
-
-}
-.tringle-text-down{
-     text-align: center;
-  top: -200px;
-  left: -47px;
-  position: relative;
-  width: 93px;
-  height: 90px;
-  margin: 0px;
-    color: rgb(12, 14, 12);
-}
 .tringle-text{
  text-align: center;
   top: 80px;
@@ -74,6 +55,42 @@ width: 0px;
   margin: 0px;
   color:white;
 }
+.tringle-up:hover{
+        border-color: transparent transparent #f5f6f8 transparent;
+}
+.tringle-up:hover>.tringle-text{
+    color:black;
+}
+.tringle-down{
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-width: 213.2px 150px 0 150px;
+  border-color: white transparent transparent transparent;
+  float: left;
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.tringle-text-down{
+text-align: center;
+  top: -200px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 90px;
+  margin: 0px;
+    color: rgb(12, 14, 12);
+}
+.tringle-down:hover{
+        border-color: black transparent transparent transparent;
+}
+.tringle-down:hover>.tringle-text-down{
+    color:white;
+}
+
 .cc{
     background-color: #242582;
     animation-name: colorchanger;
@@ -92,11 +109,18 @@ width: 0px;
     /* from {background-color: #242582;}
     to {background-color: red;} */
     0% {background-color: var(--mc);}
-    25% {background-color: rgb(74, 226, 219);}
-    50% {background-color: rgb(150, 94, 190);}
-    100% {background-color: rgb(102, 102, 219);}
+    25% {background-color: rgb(57, 126, 122);}
+    50% {background-color: rgb(159, 116, 190);}
+    100% {background-color: #5455af;}
 }
-
+.mcc{
+    /* background-color: #7164d5; */
+    transition: background-color 1s ease-in-out;
+}
+.mcc:hover{
+    background-color: black;
+    border-radius: 5px;
+}
 .bg-mc{
     background-color: var(--mc);
 }
