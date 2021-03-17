@@ -145,6 +145,10 @@ function App() {
           </div>
         </div>
       </div>
+      {/* parallax scrolling */}
+      <div className="para d-flex justify-content-center align-items-center">
+        <div className="bg-mc">Scroll Down</div>
+      </div>
       {/* middle section */}
       <div className="container bg-light">
         <div className="text-center">

@@ -134,3 +134,12 @@ a:hover{
     color: blue;
     font-weight: bold;
 }
+.para{
+    background-image: url('./para.jpeg');
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
