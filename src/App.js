@@ -275,7 +275,7 @@ function App() {
       <div className="ccc container-fluid">
         <div className="container">
           <div className="text-center">
-            <h1>Contact Us</h1>
+            <h1 className="text-light">Contact Us</h1>
           </div>
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 text-light mb-2 ">
