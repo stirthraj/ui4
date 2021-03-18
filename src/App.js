@@ -10,12 +10,11 @@ function App() {
           {/* Navigation */}
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container d-flex">
-              <div>
-                <a className="navbar-brand" href="https://eduwheel.in">
-                  <div className="logo-title">Awesome</div>
-                </a>
-              </div>
-
+              <a className="navbar-brand" href="https://eduwheel.in">
+                <div className="logo-title">
+                  <h1>Awesome</h1>
+                </div>
+              </a>
               <div>
                 <button
                   className="navbar-toggler"
@@ -79,8 +78,7 @@ function App() {
               className="col-lg-6 col-md-12 col-sm-12 mb-2"
             ></div>
             <div
-              id="cssid2"
-              className="col-lg-6 col-md-12 col-sm-12 mb-2 text-light"
+              className="col-lg-6 col-md-12 col-sm-12 mb-2 text-light p-0 p-md-2 p-lg-5"
             >
               <h1>Hello, Everyone</h1>
               <p>
@@ -93,7 +91,7 @@ function App() {
             </div>
           </div>
           {/* Features */}
-          <div className="container">
+          <div className="container p-lg-5 p-md-2 p-sm-1 p-0">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12 mb-2 d-lg-flex d-md-flex d-sm-flex d-flex align-items-center justify-content-center">
                 <div className="tringle-up">
@@ -148,11 +146,17 @@ function App() {
       {/* parallax scrolling */}
       <div className="para d-flex justify-content-center align-items-center">
         <div>
-          <h1 className="font-weight-bold text-warning">Scroll Down</h1>
+          <h1 className="sd font-weight-bold text-warning">Scroll Down</h1>
+          <p className="ds text-primary">
+            Animations can greatly improve an interface's UX, but it's important
+            to follow some guidelines to not overdo it and deteriorate the user
+            experience on your web-things. Following the following rules should
+            provide a good start.
+          </p>
         </div>
       </div>
       {/* middle section */}
-      <div className="container bg-light">
+      <div className="container">
         <div className="text-center">
           <h1>Testimonials</h1>
         </div>
@@ -168,7 +172,7 @@ function App() {
             <div className="text-center">
               <b>
                 <h1>Benny Duncan</h1>
-                <p>this is a profile pic of random person</p>
+                <p>this is a profile picture of random person</p>
               </b>
               <p>thinking about how the UI should look at any given moment</p>
             </div>
@@ -184,7 +188,7 @@ function App() {
             <div className="text-center">
               <b>
                 <h1>Laurie Jenkins</h1>
-                <p>this is a profile pic of random person</p>
+                <p>this is a profile picture of random person</p>
               </b>
               <p>thinking about how the UI should look at any given moment</p>
             </div>
@@ -199,8 +203,8 @@ function App() {
             </div>
             <div className="text-center">
               <b>
-                <h1>Ellen Cook</h1>
-                <p>this is a profile pic of random person</p>
+                <h1>Laurie Jenkins</h1>
+                <p>this is a profile picture of random person</p>
               </b>
               <p>thinking about how the UI should look at any given moment</p>
             </div>
@@ -216,7 +220,7 @@ function App() {
             <div className="text-center">
               <b>
                 <h1>Billy Crawford</h1>
-                <p>this is a profile pic of random person</p>
+                <p>this is a profile picture of random person</p>
               </b>
               <p>thinking about how the UI should look at any given moment</p>
             </div>
@@ -234,7 +238,7 @@ function App() {
                     tree on every tick, only the text node whose contents have
                     changed gets updated by React DOM.
                   </p>
-                  <button>Explore</button>
+                  <button className="bh">Explore</button>
                 </div>
               </div>
             </div>
@@ -247,7 +251,7 @@ function App() {
                     tree on every tick, only the text node whose contents have
                     changed gets updated by React DOM.
                   </p>
-                  <button>Explore</button>
+                  <button className="bh">Explore</button>
                 </div>
               </div>
             </div>
@@ -260,7 +264,7 @@ function App() {
                     tree on every tick, only the text node whose contents have
                     changed gets updated by React DOM.
                   </p>
-                  <button>Explore</button>
+                  <button className="bh">Explore</button>
                 </div>
               </div>
             </div>
@@ -326,7 +330,7 @@ function App() {
                     Remember me
                   </label>
                 </div>
-                <button type="submit" className="btn bg-bc p-1">
+                <button type="submit" className="bh btn bg-bc p-1">
                   Submit
                 </button>
               </form>

@@ -23,15 +23,6 @@
     background-size:contain;
 }
 }
-/* #cssid2{
-    color:white;
-    font-size: 1em;
-    transition: font-size 2s ease-in-out 0.5s;
-}
-#cssid2:hover{
-    font-size: 1.1em;
-} */
-
 .tringle-up{
   width: 0px;
   height: 0px;
@@ -96,7 +87,7 @@ text-align: center;
     animation-name: colorchanger;
     animation-duration: 4s;
     animation-delay: 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: initial;    
 }
 .ccc{
     background-color: #242582;
@@ -111,7 +102,7 @@ text-align: center;
     0% {background-color: var(--mc);}
     25% {background-color: rgb(57, 126, 122);}
     50% {background-color: rgb(159, 116, 190);}
-    100% {background-color: #5455af;}
+    100% {background-color: #34359e;}
 }
 .mcc{
     /* background-color: #7164d5; */
@@ -119,7 +110,7 @@ text-align: center;
 }
 .mcc:hover{
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .bg-mc{
     background-color: var(--mc);
@@ -154,6 +145,10 @@ button{
     color:var(--bc);
     border: 2px solid var(--bc);
 }
+.bh:hover{
+    background-color: black;
+    color: white;
+}
 a:hover{
     color: blue;
     font-weight: bold;
@@ -166,4 +161,23 @@ a:hover{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+}
+@media only screen and (min-width:600px){
+.sd{
+    text-align: center;
+    transition: font-size 0.5s ease-in-out;
+}
+.sd:hover{
+    font-size:2em;
+}
+.ds{
+    transition: font-size 0s step-end;
+    padding: 10px;
+}
+.ds:hover{
+    background-color: white;
+    text-align: center;
+    font-size: 2em;
+    padding:10px;
+}
 }
