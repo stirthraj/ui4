@@ -105,11 +105,12 @@ text-align: center;
     100% {background-color: #34359e;}
 }
 .mcc{
-    /* background-color: #7164d5; */
-    transition: background-color 1s ease-in-out;
+
+    transition: background-color 0.5s ease-in-out;
 }
 .mcc:hover{
     background-color: black;
+    padding: 20px;
     border-radius: 10px;
 }
 .bg-mc{
@@ -180,4 +181,7 @@ a:hover{
     font-size: 2em;
     padding:10px;
 }
+}
+.img-fluid{
+    max-height: 280px;
 }
