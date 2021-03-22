@@ -92,8 +92,8 @@ text-align: center;
 .ccc{
     background-color: #242582;
     animation-name: colorchanger;
-    animation-duration: 8s;
-    animation-delay: 1s;
+    animation-duration: 40s;
+    animation-delay: 10s;
     animation-iteration-count: infinite;
 }
 @keyframes colorchanger{
@@ -107,11 +107,12 @@ text-align: center;
 .mcc{
 
     transition: background-color 0.5s ease-in-out;
+    padding: 10px;
 }
 .mcc:hover{
     background-color: black;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .bg-mc{
     background-color: var(--mc);
